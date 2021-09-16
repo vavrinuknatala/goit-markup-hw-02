@@ -186,3 +186,38 @@ body {
     color: var(--color-title);
     }
 /*-----FOOTER END-----*/
+
+/*----PORTFOLIO-----*/
+
+.project-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    letter-spacing: 0.03em; 
+    color: var(--primary-text-color);
+    cursor: pointer;
+    border: none;
+    }
+
+.project-btn:hover,
+.project-btn:focus {
+    color: var(--color-title);
+    background-color: var(--accent-color);
+}
+.project-img-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.project-img-text{
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
